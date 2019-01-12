@@ -16,7 +16,5 @@ Enter post code and wait while the application downloads the below details of th
 - 'parking spaces'
 - 'date
 
-```
-### Disclaimer
-```
+## Disclaimer
 This program is meant for educational purposes only. I have put a 3 second delay between requests as not to overload server.
