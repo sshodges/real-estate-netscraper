@@ -4,7 +4,9 @@ import sqlite3 as lite
 con = lite.connect('realestate.db')
 c = con.cursor()
 c.execute('''CREATE TABLE IF NOT EXISTS properties
-    (id integer PRIMARY KEY, listingId integer, daySold integer, monthSold integer, yearSold integer, address text, suburb text, postCode text, price real, landSize real, propertyType, bedrooms real, bathrooms real, parkingSpaces real)''')
+    (id integer PRIMARY KEY, listingId integer, daySold integer, monthSold integer, yearSold integer, 
+    address text, suburb text, postCode text, price real, landSize real, propertyType, bedrooms real, 
+    bathrooms real, parkingSpaces real)''')
 
 linkHome = ("https://www.realestate.com.au/sold/")
 
